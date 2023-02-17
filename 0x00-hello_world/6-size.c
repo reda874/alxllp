@@ -1,19 +1,14 @@
 #include <stdio.h>
 /**
- * -main - a program printing sizes
- * Return 0 (done
+ * main - Entry
+ * Return: 0 (done)
  */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
-printf("size of a char: %lu byte bytes(s)\n", (unsigned long)sizeof(a));
-printf("size of an int: %lu byte bytes(s)\n", (unsigned long)sizeof(b));
-printf("size of a long int: %lu byte bytes(s)\n", (unsigned long)sizeof(c));
-printf("size of a l long int: %lu byte bytes(s)\n", (unsigned long)sizeof(d));
-printf("size of a float: %lu byte bytes(s)\n", (unsigned long)sizeof(f));
+printf("size of a char: %i byte bytes(s)\n", sizeof(char));
+printf("size of an int: %i byte bytes(s)\n", sizeof(int));
+printf("size of a long int: %i byte bytes(s)\n", sizeof(long));
+printf("size of a long long int: %i byte bytes(s)\n", sizeof(long long));
+printf("size of a float: %i byte bytes(s)\n", sizeof(float));
 return (0);
 }
