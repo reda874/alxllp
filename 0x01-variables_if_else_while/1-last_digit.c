@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stddio.h>
+#include <stdio.h>
 /**
  * main - printing the last digit
  * Return: 0 - valid
