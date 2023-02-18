@@ -1,17 +1,21 @@
 #include <stdio.h>
+
 /**
- * main - printing the alphabet in lower case
- * Return: 0
+ * main - printing alphabet in lower case
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char lc;
+	char alpha = 'a';
 
-	for (lc = 'a'; lc <= 'z'; lc++);
-{
-	putchar(lc);
-	
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
 	}
 	putchar('\n');
+
+
 	return (0);
 }
