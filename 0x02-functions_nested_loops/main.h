@@ -11,6 +11,6 @@ int _print_last_digit(int num);
 void jack_bauer(void);
 int add(int num1, int num2);
 void print_to_98(int n);
-int _isalpha(int c)
+int _isalpha(int c);
 
 #endif
