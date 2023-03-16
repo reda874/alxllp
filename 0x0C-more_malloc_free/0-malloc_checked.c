@@ -1,4 +1,5 @@
-#include "main.h"
+include "main.h"
+
 
 /**
 * malloc_checked -  process termination with 98
@@ -7,10 +8,10 @@
 */
 void *malloc_checked(unsigned int b)
 {
-	void *i;
+	char *p;
 
-	i = malloc(b);
-	if (i == NULL)
-	exit(98);
-	return (i);
+	p = malloc(b);
+	if (p == NULL)
+		exit(98);
+	return (p);
 }
